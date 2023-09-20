@@ -1,0 +1,43 @@
+.home{
+    /* background-image: url('https://wallpapercave.com/wp/NZiXCXO.jpg');   */
+    /* background-image: url('https://wallpapercave.com/wp/wp11288521.jpg'); */
+    /* background-image: url('https://wallpapercave.com/wp/st7v9Ar.jpg');BOLASREALES */
+    /* background-image: url('https://wallpapercave.com/wp/wp5701749.jpg'); PIKACHUILUMINADO */
+    background-image: url("https://wallpapercave.com/uwp/uwp3491761.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 1200px
+}
+
+.cardsGrid {
+    background-image: url("https://cdn.shopify.com/s/files/1/0277/2615/1768/products/0056625_yoop-grey-dog-wallpaper_800x1026_crop_center@2x.jpg?v=1648232607");
+    padding: 2em;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 1200px; */
+    height: 2000px
+  
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2ebeb;
+    text-align: center;
+    padding: 1px; /* o padding: 5px; */
+    font-size: 7px
+  }
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  

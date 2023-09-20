@@ -1,0 +1,75 @@
+.bodynav {
+    background-color: rgba(149, 153, 22, 0.98);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-attachment: fixed;
+  
+   }
+
+   
+
+.b1{
+  color: #daded2;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #0505053a;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.4s;
+    border: 1px solid rgba(255, 255, 255, 0.499);
+    padding: 5px;
+    border-radius: 2px;
+    position: relative;
+    display: flex;
+    position: absolute;
+    margin-left: 20px;
+   }
+   
+   
+.b1:hover {
+    cursor: pointer;
+    background: rgba(213, 99, 0, 0.452);
+
+    }    
+
+    .b2{
+      /* color: #3c5608; */
+      color:  #080707;
+        letter-spacing: 2px;
+        font-size: 15px;
+        text-decoration: none;
+        background-color: #0505053a;
+        border: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        transition: 0.4s;
+        border: 1px solid rgba(255, 255, 255, 0.499);
+        padding: 5px;
+        border-radius: 2px;
+      /* position: relative; */
+      display: flex;
+      position: absolute;
+      margin-left: 60em;
+      
+       }
+       
+       
+    .b2:hover {
+        cursor: pointer;
+        background: rgba(218, 213, 209, 0.452) ;
+        }    
+
+
+        .logo{
+          height: 85px; /* Tamaño que deseas para el logo */
+          width: auto;
+         
+        }
+    
+      
+/*    
+   @font-face {
+       font-family: "fontnew9";
+       src: url("../../components/images-font/Heaters.otf");
+     }
+      */

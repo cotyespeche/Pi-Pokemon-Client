@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+.body {
+    /* background-image: url("https://wallpapercave.com/uwp/uwp3491761.jpeg"); */
+    background-image: url("https://images3.alphacoders.com/119/thumbbig-1198002.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 1100px;
+    /* width: fit-content; */
+}
+
+.formmm {
+  background-color: #dde2d966;
+  height:fit content; /* Ajusta el valor según el tamaño que deseas */
+  width: fit-content;
+  display: inline-block;
+  /* margin-left: 10px; */
+  margin-right: 500px;
+  padding: 20px; /* Ajusta el valor según el espacio que deseas entre el contenido y los bordes */
+}
+
+
+/* .formmm{
+  background-color: #dde2d966;
+  
+  height: fit-content;
+  width: fit-content;
+  display: inline-block;
+
+} */
+
+/* .container { */
+  /* position: relative; */
+  /* padding: 60px; */
+  /* background-color: rgba(145, 14, 150, 0.438); */
+  /* height: 450px; */
+  /* display: inline-block; */
+  /* top: 20px; */
+  /* width: 500px; */
+ 
+/* } */
+
+.inputTitulo{
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family: 'Ascrada';
+  font-size: 4em;
+  margin-right: 500px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+  
+
+}
+/* @font-face {
+  font-family: "fontnew";
+  src: url('../13Extras/SimpleThread_PERSONAL_USE_ONLY.otf');
+
+}
+
+ @font-face {
+  font-family: "fontnew9";
+  src: url("../../components/13Extras/Heaters.otf")
+} */
+
+
+input {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  /* font-family:'Montserrat', sans-serif; */
+  margin-left: 12px;
+  border-radius: 3px;
+  border: solid 1px rgba(255, 255, 255, 0);
+  margin-bottom: 3px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.918);
+  color: rgb(143, 83, 0);
+  font-size: 12px;
+  display: inline-block;
+  width: 200px;
+
+}
+
+.inputName {
+  margin-left: 30px;
+  width: 270px;
+}
+
+
+.label{
+display: inline-block;
+font-size: 18px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+width: 100px;
+}
+
+
+.btn {
+  background: #f5f6f1f5;
+  border: 50%;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  transition: all ease-in-out 0.2s;
+  border-radius: 50%;
+  display: flex;
+  margin-top: 1em;
+  margin-left: 10em;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.btn:hover {
+  background: rgba(191, 194, 192, 0.874);
+}
+
+.btn1 {
+    background: #f3f5f0c0;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  transition: all ease-in-out 0.2s;
+  /* border-radius: 50%; */
+  display:block;
+  margin-top: 10PX;
+  margin-right: 5em;
+  /* position: absolute; */
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+cursor: pointer;
+
+  
+}
+
+
+.btn1:hover {
+    background: rgba(191, 194, 192, 0.874);
+}
+
+
+.selectT {
+     background-color: #1f9b86;
+    border: solid 0.2px rgba(255, 255, 255, 0.824);
+    color: rgb(12, 12, 12);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 282px;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition-duration: 0.2s;
+    margin-left: 30px;
+    margin-top: 10px;
+    /* display:flex;
+    flex-wrap: wrap; */
+}
+
+
+/* .buttonX{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.X {
+  margin-left: 10px; /* Ajusta el valor según el espacio que deseas entre el nombre y el botón */
+/* } */ 
+
+
+
+
+/* .divT{
+ 
+} */
+
+@font-face {
+  font-family:'Ascrada';
+  src: url('../../img/Ascrada.ttf');
+}

@@ -1,0 +1,64 @@
+
+
+.button{
+  background: #2f659e00;
+  border: none;
+  padding: 8px;
+  font-family: "fontnew2";
+  font-size: 15px;
+
+}
+
+.btn{
+  background: #dfdada00;
+  border:none;
+  padding: 10px;
+  font-family: 'Ascrada';
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+
+}
+
+.input {
+  background: rgba(206, 199, 199, 0.527);
+  width: 200px;
+  font-size: 15px;
+  font-family: monospace;
+  margin-left: 90px;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  transition: all ease-in-out 0.2s;
+  margin-left: 2px;
+
+}
+
+.input::placeholder {
+  font-size: 15px;
+  color: rgb(8, 7, 7);
+
+}
+.input:hover{
+background: rgba(252, 248, 248, 0.314);
+
+}
+
+.button:hover {
+  font-size: 17px;
+  border-radius: 50%;
+  background-color:rgba(218, 213, 209, 0.452);
+  /* cursor: pointer; */
+}
+.btn:hover {
+  background: rgba(218, 213, 209, 0.452);
+}
+  /* font-size: 20px;
+  cursor: pointer;
+}
+ */
+ @font-face {
+  font-family:'Ascrada';
+  src: url('../../img/Ascrada.ttf');
+}
