@@ -23,7 +23,7 @@ import axios from "axios";
 export const getAllPokemons = () => {
   return async function (dispatch) {
     try {
-      const response = await axios("http://localhost:3001/pokemons/getAll");
+      const response = await axios("/pokemons/getAll");
       const pedido = response.data;
       dispatch({
         type: GET_ALL_POKEMONS,
@@ -39,7 +39,7 @@ export const getAllPokemons = () => {
 export const getPokemonDetail = (id) => {
   return async function (dispatch) {
    
-      const {data}= await axios.get(`http://localhost:3001/pokemons/${id}`)
+      const {data}= await axios.get(`/pokemons/${id}`)
   
         dispatch({
           type:GET_POKEMON_DETAIL,
@@ -89,7 +89,7 @@ export const orderByAttack = (payload) => {
 ///////////////////////////////////////// GET ALL TYPES ////////////////////////////////////////////////////
 export const getAllTypes = () => {
   return async function (dispatch) {
-    const apiDataTypes = await axios("http://localhost:3001/types");
+    const apiDataTypes = await axios("/types");
     dispatch({
       type: GET_ALL_TYPES,
       payload: apiDataTypes.data,
@@ -114,7 +114,7 @@ export const filterBySource = (payload) => {
 
 export const postPokemon= (form) => {
   return async function(dispatch){
-    const {data} = await axios.post("http://localhost:3001/pokemons/create", form)
+    const {data} = await axios.post("/pokemons/create", form)
     return dispatch ({type: POST_POKEMON, payload: data}) 
     
   }
